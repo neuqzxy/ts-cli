@@ -1,0 +1,21 @@
+{
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["src/template/**/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true,
+    "module": "ES2015",
+    "rootDir": ".",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "target": "es2017"
+  }
+}

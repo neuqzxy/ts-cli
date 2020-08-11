@@ -1,0 +1,4 @@
+build/*
+lib/*
+jest.config.js
+gulpfile.js
